@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+
+# Byte-compiled files
+__pycache__/
+app/__pycache__/
+app/services/__pycache__/
+
+# Image folder
+generated_images/
+
+# DB
+*.db
