@@ -8,7 +8,6 @@ from .services.scheduler_agent import start_scheduler
 
 
 app = FastAPI(title = "AI Marketing Agent")
-app.mount("/static", StaticFiles(directory = "app/static"), name = "statis")
 app.mount("/generated_images", StaticFiles(directory = "generated_images"), name = "generated_images")
 
 templates = Jinja2Templates(directory = "app/templates")
